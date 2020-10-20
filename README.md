@@ -15,7 +15,16 @@
 | **DOM** | virtual DOM | regular DOM |
 | **Architecture** | component-based | component-based |
 
-First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular)
+First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular).
+
+- **Community**
+<img src='https://lh4.googleusercontent.com/gvhsxCvy1tMZSPqSU18Kx0MT3s-1z_G7Kw4CbpJVBrcf2U9dYQQWlxJS03vwc2A9GJ32kpUi0eTs-rzUtW2v2j0LS12y8qxBR9CuYUL3RbfLBC-PpIXeoqopFmb-HWzmbjDG6RPEWgFGn-sbhg' style="display: block; margin: auto;" />
+
+- **Performance**
+
+- **Learning curve**
+
+- **Scalability**
 
 ### 2️⃣ - Create React app
 
