@@ -1,6 +1,6 @@
 ## “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
-### 5️⃣ A new state management in React - Recoil
+### 5️⃣ A new state management in React - Recoil 🌚
 
 Recoil is an experimental set of utilities for state management with React. Recoil lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components. Atoms are units of state that components can subscribe to. Selectors transform this state either synchronously or asynchronously.
 
@@ -83,7 +83,7 @@ function FontButton() {
 Clicking on the button now does two things: it increases the font size of the button while also updating the font size label to reflect the current font size.
 
 
-### 4️⃣ State management in React - Redux
+### 4️⃣ State management in React - Redux 🛂
 
 React bindings are not included in Redux by default. You need to install them explicitly:
 ```
@@ -120,7 +120,7 @@ Redux Toolkit is our recommended approach for writing Redux logic. It contains p
 The Redux DevTools Extension shows a history of the changes to the state in your Redux store over time. This allows you to debug your applications effectively, including using powerful techniques like "time-travel debugging".
 
 
-### 3️⃣ React is better than Angular?
+### 3️⃣ React is better than Angular ? 🦾
 
 |               | **React**     | **Angular** |
 | ------------- | ------------- | --------  |
@@ -145,7 +145,7 @@ Many front-end developers argue on what React js is. Some say that it’s a libr
 
 There might be confusion between React and React Native as they are used for different purposes. React.js is mainly used for web development whereas React Native (a stand-alone open-source framework) is used for building mobile applications.
 
-### 2️⃣ Create React app
+### 2️⃣ Create React app 🧪
 
 Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
 
@@ -159,7 +159,7 @@ npm start
 
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
 
-### 1️⃣ Hello World – React
+### 1️⃣ Hello World – React 👣
 
 The simplest example of React is this:
 
