@@ -1,13 +1,16 @@
-## Di Cecco Stefano's blog
+# Di Cecco Stefano's blog
+ :bowtie: :bowtie: :bowtie: :bowtie:
 
-“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
+## “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
-### React is better than Angular?
+### :three: - React is better than Angular?
+
 <img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.15.30.png' style="display: block; margin: auto;" />
 
 First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular)
 
-### Create React app
+### :two: - Create React app
+
 <img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.02.48.png' style="display: block; margin: auto;" />
 
 Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
@@ -22,7 +25,8 @@ npm start
 
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
 
-### Hello World – React
+### :one: - Hello World – React
+
 <img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-12.39.44.png' style="display: block; margin: auto;" />
 
 The simplest example of React is this:
