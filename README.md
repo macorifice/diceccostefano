@@ -1,5 +1,6 @@
 # Di Cecco Stefano's blog
- :bowtie: :bowtie: :bowtie: :bowtie:
+
+ ![ :bowtie: :bowtie: :bowtie: :bowtie:]
 
 ## “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
