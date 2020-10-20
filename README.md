@@ -1,37 +1,28 @@
 ## Welcome to Di Cecco Stefano's site
 
-You can use the [editor on GitHub](https://github.com/macorifice/diceccostefano.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Hello World – React
 
-### Markdown
+The simplest example of React is this:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+ReactDOM.render(
+<h1>Hello, world!</h1>,
+document.getElementById("root")
+);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Create React app
 
-### Jekyll Themes
+Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/macorifice/diceccostefano.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 8.10 and npm >= 5.6 on your machine. To create a project, run:
 
-### Support or Contact
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
