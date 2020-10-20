@@ -2,17 +2,10 @@
 
 “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
-### Hello World – React
-<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-12.39.44.png' style="display: block; margin: auto;" />
+### React is better than Angular?
+<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.15.30.png' style="display: block; margin: auto;" />
 
-The simplest example of React is this:
-
-```
-ReactDOM.render(
-<h1>Hello, world!</h1>,
-document.getElementById("root")
-);
-```
+First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular)
 
 ### Create React app
 <img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.02.48.png' style="display: block; margin: auto;" />
@@ -29,8 +22,14 @@ npm start
 
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
 
+### Hello World – React
+<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-12.39.44.png' style="display: block; margin: auto;" />
 
-### React is better than Angular?
-<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.15.30.png' style="display: block; margin: auto;" />
+The simplest example of React is this:
 
-First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular)
+```
+ReactDOM.render(
+<h1>Hello, world!</h1>,
+document.getElementById("root")
+);
+```
