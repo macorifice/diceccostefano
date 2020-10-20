@@ -1,8 +1,30 @@
 ## “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
-### 3️⃣ - React is better than Angular?
+### 4️⃣ State management in React - Redux
 
-<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.15.30.png' style="display: block; margin: auto;" />
+React bindings are not included in Redux by default. You need to install them explicitly:
+```
+npm install react-redux
+```
+
+Redux is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.
+
+Redux helps you manage "global" state - state that is needed across many parts of your application.
+
+The patterns and tools provided by Redux make it easier to understand when, where, why, and how the state in your application is being updated, and how your application logic will behave when those changes occur. Redux guides you towards writing code that is predictable and testable, which helps give you confidence that your application will work as expected.
+
+Redux helps you deal with shared state management, but like any tool, it has tradeoffs. There's more concepts to learn, and more code to write. It also adds some indirection to your code, and asks you to follow certain restrictions. It's a trade-off between short term and long term productivity.
+
+Redux is more useful when:
+
+- You have large amounts of application state that are needed in many places in the app
+- The app state is updated frequently over time
+- The logic to update that state may be complex
+- The app has a medium or large-sized codebase, and might be worked on by many people
+
+Not all apps need Redux. Take some time to think about the kind of app you're building, and decide what tools would be best to help solve the problems you're working on.
+
+### 3️⃣ React is better than Angular?
 
 |               | **React**     | **Angular** |
 | ------------- | ------------- | --------  |
@@ -27,13 +49,7 @@ Many front-end developers argue on what React js is. Some say that it’s a libr
 
 There might be confusion between React and React Native as they are used for different purposes. React.js is mainly used for web development whereas React Native (a stand-alone open-source framework) is used for building mobile applications.
 
-- ***Google Trends* (React,Angular)**
-
-<img src='https://lh4.googleusercontent.com/gvhsxCvy1tMZSPqSU18Kx0MT3s-1z_G7Kw4CbpJVBrcf2U9dYQQWlxJS03vwc2A9GJ32kpUi0eTs-rzUtW2v2j0LS12y8qxBR9CuYUL3RbfLBC-PpIXeoqopFmb-HWzmbjDG6RPEWgFGn-sbhg' style="display: block; margin: auto;" />
-
-### 2️⃣ - Create React app
-
-<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.02.48.png' style="display: block; margin: auto;" />
+### 2️⃣ Create React app
 
 Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
 
@@ -47,9 +63,7 @@ npm start
 
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
 
-### 1️⃣ - Hello World – React
-
-<img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-12.39.44.png' style="display: block; margin: auto;" />
+### 1️⃣ Hello World – React
 
 The simplest example of React is this:
 
