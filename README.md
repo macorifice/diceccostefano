@@ -1,4 +1,4 @@
-## Welcome to Di Cecco Stefano's site
+## Di Cecco Stefano's blog
 
 “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler
 
