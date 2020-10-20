@@ -6,6 +6,15 @@
 
 <img src='https://diceccostefano.files.wordpress.com/2020/10/screenshot-2020-10-20-at-13.15.30.png' style="display: block; margin: auto;" />
 
+|               | **React**     | **Angular** |
+| ------------- | ------------- | --------  |
+| **First release** | 2013          | 2016      |
+| **Introduced by** | Facebook      | Google    |
+| **Type of solution** | library    | framework |
+| **Programming language used** | JavaScript (+ TypeScript support) | TypeScript |
+| **DOM** | virtual DOM | regular DOM |
+| **Architecture** | component-based | component-based |
+
 First, the question is wrong! Because it’s not really possible to compare a UI library (React) and a framework (Angular)
 
 ### 2️⃣ - Create React app
